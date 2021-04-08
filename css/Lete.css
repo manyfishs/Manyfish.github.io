@@ -51,53 +51,87 @@
         font-size: 13px;
     }
 }
+
+/* 鼠标图标 */
+
+body {
+    cursor: url('img/Arrow.cur'), auto;
+}
+
+
+/*a标签*/
+
+a:hover {
+    cursor: url('img/AppStarting.ani'), auto;
+}
+
+
+/*按钮*/
+
+button:hover {
+    cursor: url('img/AppStarting.ani'), auto;
+}
+
+#rightside>div>button,
+#rightside>div>a {
+    display: block;
+    margin-bottom: 2px;
+    width: 30px;
+    height: 30px;
+    color: var(--btn-color);
+    text-align: center;
+    font-size: 16px;
+    cursor: url('img/AppStarting.ani'), auto;
+}
+
+
 /* 打赏 */
 
 .post-reward .reward-button {
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+    cursor: url('img/AppStarting.ani'), auto;
 }
 
 
 /* 文章标签 */
 
 .layout_post .tag_share .post-meta__tags {
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+    cursor: url('img/AppStarting.ani'), auto;
 }
 
 
 /* 评论区 */
 
 .vcol * {
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+    cursor: url('img/AppStarting.ani'), auto;
 }
 
 .v[data-class=v] .vicon {
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+    cursor: url('img/AppStarting.ani'), auto;
 }
 
 .v[data-class=v] .vbtn {
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+    cursor: url('img/AppStarting.ani'), auto;
 }
 
 
 /* 回复 */
 
 .vat {
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+    cursor: url('img/AppStarting.ani'), auto;
 }
 
 
 /*i标签*/
 
 i:hover {
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+    cursor: url('img/AppStarting.ani'), auto;
 }
 
 
 /*up酱*/
 
 #upj:hover {
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+    cursor: url('img/AppStarting.ani'), auto;
 }
 
 
@@ -105,15 +139,21 @@ i:hover {
 
 #footer-wrap a:hover {
     text-decoration: none;
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+    cursor: url('img/AppStarting.ani'), auto;
 }
 
 
 /*分页器*/
 
 #pagination .page-number:hover {
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+    cursor: url('img/AppStarting.ani'), auto;
 }
+/* 分页器的三个点(...) */
+.space {
+    color: #00c4b6;
+}
+
+
 /* 分页器的三个点(...) */
 .space {
     color: #00c4b6;
