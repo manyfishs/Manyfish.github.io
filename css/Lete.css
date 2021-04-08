@@ -52,38 +52,6 @@
     }
 }
 /* 鼠标图标 */
-
-body {
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/Jkll8I.png), auto;
-}
-
-
-/*a标签*/
-
-a:hover {
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
-}
-
-
-/*按钮*/
-
-button:hover {
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
-}
-
-#rightside>div>button,
-#rightside>div>a {
-    display: block;
-    margin-bottom: 2px;
-    width: 30px;
-    height: 30px;
-    color: var(--btn-color);
-    text-align: center;
-    font-size: 16px;
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
-}
-
-
 /* 打赏 */
 
 .post-reward .reward-button {
