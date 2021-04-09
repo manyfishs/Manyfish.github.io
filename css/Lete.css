@@ -11,14 +11,14 @@
 }
 
 body * {
-	cursor: url(img/Arrow.cur), auto !important
+	cursor: url(/img/Arrow.cur), auto !important
 }
 
 a i:hover,
 body a:hover,
 button i:hover,
 button:hover {
-	cursor: url(img/AppStarting.ani), auto !important
+	cursor: url(/img/AppStarting.ani), auto !important
 }
 
 #article-container.post-content h1:before,
@@ -293,41 +293,41 @@ h6:before {
 /* 打赏 */
 
 .post-reward .reward-button {
-    cursor: url(img/AppStarting.ani), auto;
+    cursor: url(/img/AppStarting.ani), auto;
 }
 
 
 /* 文章标签 */
 
 .layout_post .tag_share .post-meta__tags {
-    cursor: url(img/AppStarting.ani), auto;
+    cursor: url(/img/AppStarting.ani), auto;
 }
 
 
 /* 评论区 */
 
 .vcol * {
-    cursor: url(img/AppStarting.ani), auto;
+    cursor: url(/img/AppStarting.ani), auto;
 }
 
 .v[data-class=v] .vicon {
-    cursor: url(img/AppStarting.ani), auto;
+    cursor: url(/img/AppStarting.ani), auto;
 }
 
 .v[data-class=v] .vbtn {
-    cursor: url(img/AppStarting.ani), auto;
+    cursor: url(/img/AppStarting.ani), auto;
 }
 
 
 /* 回复 */
 
 .vat {
-    cursor: url(img/AppStarting.ani), auto;
+    cursor: url(/img/AppStarting.ani), auto;
 }
 /*up酱*/
 
 #upj:hover {
-    cursor: url(img/AppStarting.ani), auto;
+    cursor: url(/img/AppStarting.ani), auto;
 }
 
 
@@ -335,14 +335,14 @@ h6:before {
 
 #footer-wrap a:hover {
     text-decoration: none;
-    cursor: url(img/AppStarting.ani), auto;
+    cursor: url(/img/AppStarting.ani), auto;
 }
 
 
 /*分页器*/
 
 #pagination .page-number:hover {
-    cursor: url(img/AppStarting.ani), auto;
+    cursor: url(/img/AppStarting.ani), auto;
 }
 /* 分页器的三个点(...) */
 .space {
